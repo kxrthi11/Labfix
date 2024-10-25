@@ -1,0 +1,60 @@
+/* General body styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fcfcfc; /* Light background color for the entire app */
+}
+
+/* Styling for the container of the add lab form */
+.container {
+    margin-top: 50px;
+}
+
+/* Typography for headings */
+h4 {
+    color: #333; /* Darker color for headings */
+    margin-bottom: 20px;
+}
+
+/* Typography for lab card titles */
+h6 {
+    color: #1976d2; /* Primary color for lab names */
+}
+
+/* Styling for the lab description text */
+body2 {
+    color: #555; /* Subtle color for description text */
+}
+
+/* Form stack spacing */
+.MuiStack-spacing {
+    margin-bottom: 16px; /* Spacing between form elements */
+}
+
+/* Button styling for the upload image button */
+.upload-button {
+    margin-top: 10px; /* Space above the upload button */
+}
+
+/* Button styling for submit button */
+.submit-button {
+    margin-top: 20px; /* Space above the submit button */
+}
+
+/* Footer styling */
+footer {
+    padding: 16px 0; /* Vertical padding */
+    background-color: #f1f1f1; /* Light gray background */
+    width: 100%; /* Full width */
+    position: relative; /* Allow for margin adjustments */
+    bottom: 0; /* Align at the bottom */
+}
+
+/* Snackbar alert styling */
+.snackbar {
+    position: fixed;
+    bottom: 20px; /* Space from the bottom */
+    left: 50%;
+    transform: translateX(-50%); /* Centering */
+}
